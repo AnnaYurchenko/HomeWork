@@ -4,10 +4,9 @@ import data.Student;
 import data.Gender;
 import data.ClassOfStudents;
 
-
 public class StudentApp {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Student student1 = new Student("Anna", "Yurchenko", Gender.FEMALE, 36);
         Student student2 = new Student("Julia", "Rudova", Gender.FEMALE, 23);
         Student student3 = new Student("Alex", "Titov", Gender.MALE, 32);
@@ -37,6 +36,6 @@ public class StudentApp {
         System.out.println("Number of males is " + numberOfMales);
         System.out.println("Number of females is " + numberOfFemales);
         System.out.println("-------------------------------------");
-
     }
+
 }
